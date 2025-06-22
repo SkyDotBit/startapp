@@ -1,0 +1,11 @@
+{
+    "clonepath": "clone",
+    "executablepath": "clone/main.py",
+    "command": "python",
+    "giturl": "(Your Git URL here)",
+    "port": "6969",
+    "args": "-u",
+    "gituser": "(Your Git User here)",
+    "gitoken": "(Your Git personal token here if required",
+    "notes": "Notes from me ^^: Please separate each arg with a space. ALSO I JUST NOTICED THAT THE '-u' ARG IS REQUIRED FOR IT TO READ THE OUTPUT (In Python from my testing so far)!! Don't remove it please! Do not include https:// in the git url!"
+}

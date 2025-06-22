@@ -1,0 +1,31 @@
+<head>
+    <title>Control Panel</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://raw.githubusercontent.com/SkyDotBit/skysite/refs/heads/main/assets/startapp/Insane.svg">
+</head>
+<body style="background-color: black; color: white;">
+    <center><a style="display: inline-flex;"><h1>Control Panel</h1> <p>for StartApp</p></a></center>
+    <canvas height="10px"></canvas>
+    <p>If you want to change the settings, edit into the config file.</p>
+    <button id="clone" onclick="clone()">Clone</button>
+    <button id="execute" onclick="exe()">Execute</button>
+    <button id="quit" onclick="quit()">Quit</button>
+    <button id="restart" onclick="restart()">Restart</button>
+    <button id="quitapp" onclick="quitapp()">Quit StartApp</button>
+    <canvas height="10px"></canvas>
+    <ul>
+        <li>Clone: Clone's the git URL that you have set into the directory you have set. (If already cloned it will update the updated files in the repo to hopefully prevent the risk of dataloss)</li>
+        <li>Execute: Run the executable at the directory set with the command set.</li>
+        <li>Quit: Forcefully stops the executable.</li>
+        <li>Restart: Restarts the executable.</li>
+        <li>Quit StartApp: Quits StartApp. (Also quits the executable)</li>
+    </ul>
+    <p style="color: yellow;" id="status">Pinging 🟡</p>
+    <p style="color: yellow;" id="statu">Pinging 🟡</p>
+    <div id="output" width="80%" height="60%" style="border-radius: 2px; border-color: white;">
+        ===Start of output===
+    </div>
+    <script src="f"></script>
+    <script src="s"></script>
+    <script src="w"></script>
+</body>
